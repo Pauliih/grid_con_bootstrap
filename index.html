@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Grid con Bootstrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Aqui iría mi main.css si usara mis estilos -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>HEADER</h1>
+    </div>
+  </header>
+  <div class="container">
+    <section class="main row">
+      <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+        <h3>Article</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eum modi reiciendis, tempore non itaque, odit impedit nam recusandae cum explicabo animi dolorum hic et ipsam, facere id aspernatur molestias?
+        </p>
+      </article>
+      <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <h3>Sidebar - Aside</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nesciunt libero dolore qui soluta sit deleniti mollitia voluptates eligendi id. Quo voluptatem iure debitis tempora quos placeat sapiente. Inventore, iure?
+        </p>
+      </aside>
+    </section>
+    <div class="row">
+      <div class="color1 col-xs-12 col-sm-6 col-md-3">
+        <h3>Columna</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse similique quasi, quo dolorem iste cumque iusto dignissimos doloremque accusamus ratione commodi numquam amet natus molestiae quod eligendi non quas inventore.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h3>Columna</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A praesentium debitis alias dolore pariatur dolores, consequatur fugit aut ad quae esse expedita! Labore, recusandae asperiores saepe, itaque facere id ipsam!</p>
+      </div>
+
+      <!-- para resolver errores div con clearfix -->
+      <div class="clearfix visible-sm-block"></div>
+
+      <!-- la clase "col-md-offset-3" desplaza la columna (en este caso se desplaza 3 columnas a la der.). -->
+      <div class="color1 col-xs-12 col-sm-6 col-md-3">
+        <h3>Columna</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus iste mollitia, consequuntur exercitationem aliquam et non distinctio, cum nesciunt itaque reiciendis voluptatem. Ex veritatis est similique ipsum, eligendi, error placeat!</p>
+      </div>
+       <div class="col-xs-12 col-sm-6 col-md-3">
+        <h3>Columna</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum expedita itaque dicta veritatis, cumque beatae, recusandae inventore magni praesentium ipsa in sed earum amet quos obcaecati odit nesciunt laudantium consectetur!</p>
+      </div> 
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <h3>Paula Campos</h3>
+    </div>
+  </footer>
+
+
+	<!-- Primero jquery -->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Después bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
